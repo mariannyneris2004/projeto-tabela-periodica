@@ -8,6 +8,23 @@
 
 <hr>
 
+<h4>Linguagens/Tecnologias Usadas</h4>
+
+<b> Front-End </b>
+<ul>
+  <li>HTML (v.5)</li>
+  <li>CSS (v.3)</li>
+  <li>Java Script (v.ECMAScript)</li>
+</ul>
+</div>
+
+<b> Back-End </b>
+<ul>
+  <li>Java (v.17.0.8)</li>
+</ul>
+
+<hr>
+
 <h4>:paperclip: Link's Úteis</h4>
 
 <hr>
