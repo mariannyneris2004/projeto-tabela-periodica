@@ -16,11 +16,15 @@
   <li>CSS (v.3)</li>
   <li>Java Script (v.ECMAScript)</li>
 </ul>
-</div>
 
 <b> Back-End </b>
 <ul>
   <li>Java (v.17.0.8)</li>
+</ul>
+
+<b> Banco de Dados </b>
+<ul>
+  <li>Mysql (v.8.0.34)</li>
 </ul>
 
 <hr>
