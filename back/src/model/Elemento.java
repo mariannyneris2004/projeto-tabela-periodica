@@ -1,5 +1,6 @@
 package model;
 
+
 import java.util.List;
 
 public class Elemento {
@@ -112,7 +113,7 @@ public class Elemento {
                 ", pontoDeEbulicao=" + pontoDeEbulicao +
                 ", densidade=" + densidade +
                 ", periodo=" + periodo +
-                ", familia=" + familia +
-                '}';
+                ", familia=" + familia + "\n";
+
     }
 }

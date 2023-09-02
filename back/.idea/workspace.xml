@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a2f66b9e-3529-49ec-86c0-ec4a141b4b68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/InfoExtra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projeto-tabela-periodica.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/elemento.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/img/hidrogenio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/front/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/model/Elemento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/repositories/ElementoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/service/ElementoService.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/InfoExtraRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Elemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Elemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/InfoExtra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/InfoExtra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ElementoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ElementoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/projeto-tabela-copia/projeto-tabela-periodica/back"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/projeto-tabela/projeto-tabela-periodica/back"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

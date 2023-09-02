@@ -1,8 +1,12 @@
 package service;
 
 import model.Elemento;
+import model.InfoExtra;
 import repositories.ElementoRepository;
+import repositories.InfoExtraRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class ElementoService {
@@ -16,14 +20,13 @@ public class ElementoService {
     }
 
     private ElementoRepository elementoRepository = new ElementoRepository();
+    private InfoExtraRepository infoExtraRepository = new InfoExtraRepository();
 
-    public Elemento cadastrarElemento(Elemento elemento){
-        if (buscarElemento(elemento.getNome()) == null){
-            elementoRepository.adicionar(elemento);
-            return elemento;
-        } else {
-            return null;
-        }
+    public Elemento cadastrarElemento(Elemento elemento, InfoExtra info){
+        elementoRepository.adicionar(elemento);
+        infoExtraRepository.adicionar(info);
+        info.setElemento(elemento.getNumeroAtomico());
+        return elemento;
     }
 
     public Elemento buscarElemento(Integer numeroAtomico){
@@ -43,4 +46,24 @@ public class ElementoService {
         }
         return null;
     }
+
+    /*public String[] buscarAplicacoesDoMaterial(InfoExtra info){
+        String[] aplicacoesDoMaterial;
+
+        String lista = info.getAplicacoesDoMaterial();
+
+        aplicacoesDoMaterial = lista.split(", ");
+
+        return aplicacoesDoMaterial;
+    }
+
+    public String[] buscarOndeEEncontradoNaNatureza(InfoExtra info){
+        String[] aplicacoesDoMaterial;
+
+        String lista = info.getOndeEEncontradoNaNatureza();
+
+        aplicacoesDoMaterial = lista.split(", ");
+
+        return aplicacoesDoMaterial;
+    }*/
 }

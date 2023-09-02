@@ -1,7 +1,9 @@
 import model.Elemento;
+import model.InfoExtra;
 import service.ElementoService;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -19,15 +21,17 @@ public class Main {
         double densidade = scanner.nextDouble();
         int periodo = scanner.nextInt();
         int familia = scanner.nextInt();
+        String anoDescoberta = scanner.next();
+        double escalaDeAgressividade = scanner.nextDouble();
+        double escalaDeReutilizacao = scanner.nextDouble();
 
         Elemento elemento = new Elemento(numeroAtomico, nome, sigla, massa, pontoDeFusao, pontoDeEbulicao,
                 densidade, periodo, familia);
 
-        elementoService.cadastrarElemento(elemento);
+        InfoExtra info = new InfoExtra("", anoDescoberta, "terra, água, ar, fogo",
+                escalaDeAgressividade, escalaDeReutilizacao);
 
-        for (Elemento elementoLista:elementoService.buscarElementos().values()) {
-            System.out.println(elementoLista.toString());
-        }
+        elementoService.cadastrarElemento(elemento, info);
 
         scanner.close();
     }
