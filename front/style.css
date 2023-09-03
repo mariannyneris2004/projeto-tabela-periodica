@@ -41,6 +41,10 @@ main{
     margin-left: auto !important;
     margin-right: auto !important;
     color: #f2d3e5 !important;
+    display: flex !important;
+    margin-left: 35% !important;
+    margin-right: 30% !important;
+    margin-top: 25px !important;
 }
 
 .content{
