@@ -1,4 +1,4 @@
-<h3>:pill: Projeto Tabela Periódica</h3>
+<h3 align="center">💊 Projeto Tabela Periódica 💊</h3>
 
 <hr>
 
@@ -8,7 +8,7 @@
 
 <hr>
 
-<h4>Linguagens/Tecnologias Usadas</h4>
+<h4>💻 Linguagens/Tecnologias Usadas</h4>
 
 <b> Front-End </b>
 <ul>
@@ -29,11 +29,19 @@
 
 <hr>
 
-<h4>:paperclip: Link's Úteis</h4>
+<h4>📸 Prints </h4>
+
+<p>
+  ⚠️ Em breve! ⚠️
+</p>
 
 <hr>
+
+<h4>📎 Link's Úteis</h4>
 
 <ul>
   <li>Figma: https://www.figma.com/file/LUPhNwAEWnTGX3HLjm3YnU/Tabela-Peri%C3%B3dica?type=design&node-id=0%3A1&mode=design&t=JKGhv3s2PwNgjaVT-1</li>
   <li>Resumo (Docs): https://docs.google.com/document/d/1fr1e5FgnNZImwusV4t1PDfew5NqoM15oBLEDJZVRy6M/edit?usp=sharing</li>
 </ul>
+
+<hr>

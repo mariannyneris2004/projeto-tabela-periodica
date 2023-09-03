@@ -36,6 +36,20 @@ main{
     cursor: pointer !important;
 }
 
+#botaoVoltar{
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 3px !important;
+    margin-bottom: 12px !important;
+    transition: transform 1s !important;
+    background-color: #f2e3d5 !important;
+}
+
+#botaoVoltar:hover{
+    transform: scale(1.2) !important;
+    background-color: #3CA6A6 !important;
+}
+
 .title{
     position: fixed !important;
     margin-left: auto !important;
@@ -71,4 +85,8 @@ main{
     margin-bottom: 100% !important;
     margin: auto !important;
     display: flex !important;
+}
+
+.row{
+    justify-content: space-evenly !important;
 }
