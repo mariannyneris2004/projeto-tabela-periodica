@@ -9,15 +9,14 @@ body{
     display: flex;
 }
 
-td{
-    width: 50px !important;
-    height: 50px !important;
-    text-align: center;
+div.elemento{
+    width: 75px !important;
+    height: 75px !important;
     margin: 5px !important;
     font-weight: 600 !important;
 }
 
-td:hover{
+div.elemento:hover{
     zoom: .9 !important;
     transition: .5s !important;
     color: #026773 !important;
@@ -27,13 +26,6 @@ td:hover{
 
 main{
     margin: auto !important;
-}
-
-#elemento{
-    background-color: antiquewhite;
-    border: 1px solid #012E40;
-    margin: 5px !important;
-    cursor: pointer !important;
 }
 
 #botaoVoltar{
@@ -50,15 +42,11 @@ main{
     background-color: #3CA6A6 !important;
 }
 
-.title{
+.tituloTabela{
     position: fixed !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
     color: #f2d3e5 !important;
-    display: flex !important;
-    margin-left: 35% !important;
-    margin-right: 30% !important;
-    margin-top: 25px !important;
+    margin-top: 15px !important;
+    margin-left: 38% !important;
 }
 
 .content{
@@ -89,4 +77,33 @@ main{
 
 .row{
     justify-content: space-evenly !important;
+}
+
+.numAtIn{
+    padding: 5px 0px 0px 7px !important;
+    font-size: 12px !important;
+}
+
+.simbIn{
+    text-align: center !important;
+    padding: 1px  1px 3px 0px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.nomeIn{
+    font-size: 12px !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 3px 0px 0px 0px !important;
+}
+
+.elemento{
+    background-color: antiquewhite;
+    border: 1px solid #012E40;
+    margin: 5px !important;
+    cursor: pointer !important;
+    display: flex;
+    flex-direction: column;
 }
