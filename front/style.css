@@ -17,11 +17,11 @@ div.elemento{
 }
 
 div.elemento:hover{
-    zoom: .9 !important;
+    zoom: .97 !important;
     transition: .5s !important;
     color: #026773 !important;
     border-radius: 12px !important;
-    border: none !important;
+    border: 1px solid #026773 !important;
 }
 
 main{
