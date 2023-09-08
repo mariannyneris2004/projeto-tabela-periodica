@@ -33,12 +33,14 @@ main{
     border: none !important;
     padding: 3px !important;
     margin-bottom: 12px !important;
-    transition: transform 1s !important;
+    transition: transform .3s !important;
     background-color: #f2e3d5 !important;
+    max-width: 50% !important;
+    width: 100% !important;
 }
 
 #botaoVoltar:hover{
-    transform: scale(1.2) !important;
+    transform: scale(1.1) !important;
     background-color: #3CA6A6 !important;
 }
 
@@ -57,7 +59,7 @@ main{
     max-height: 85% !important;
     width: 100% !important;
     height: 100% !important;
-    padding: 25px !important;
+    padding: 3% !important;
     display: flex;
     margin: auto !important;
 }
@@ -66,6 +68,8 @@ main{
     max-width: 100% !important;
     max-height: 100% !important;
     border-radius: 3% !important;
+    margin: 3% !important;
+    margin-top: 5% !important;
 }
 
 .col-4{
@@ -76,7 +80,8 @@ main{
 }
 
 .row{
-    justify-content: space-evenly !important;
+    justify-content: space-between;
+    display: flex;
 }
 
 .numAtIn{
@@ -106,4 +111,14 @@ main{
     cursor: pointer !important;
     display: flex;
     flex-direction: column;
+}
+
+.blocoElemento{
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 75px !important;
+    max-height: 75px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 80px 15px !important;
 }
