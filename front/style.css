@@ -10,8 +10,8 @@ body{
 }
 
 div.elemento{
-    width: 75px !important;
-    height: 75px !important;
+    width: 100% !important;
+    height: 100% !important;
     margin: 5px !important;
     font-weight: 600 !important;
 }
@@ -48,10 +48,11 @@ main{
     position: fixed !important;
     color: #f2d3e5 !important;
     margin-top: 15px !important;
-    margin-left: 38% !important;
+    margin-left: 15px !important;
 }
 
-.content{
+.content,
+.content2{
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: #f2d3e5 !important;
     border-radius: 3% !important;
@@ -64,12 +65,75 @@ main{
     margin: auto !important;
 }
 
+@media screen and (max-width: 380px) {
+    .content{
+        display: none !important;
+    }
+
+    .imagemElemento{
+        max-width: 50% !important;
+        max-height: 50% !important;
+        border-radius: 3% !important;
+        margin: 3% !important;
+        margin-top: 5% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    span{
+        font-size: 10px;
+    }
+
+    .blocoElemento{
+        display: flex !important;
+        flex-direction: column !important;
+        max-width: 50px !important;
+        max-height: 55px !important;
+        width: 100% !important;
+        height: 100% !important;
+        margin: 10px 1px !important;
+    }
+    .row{
+        justify-content: space-around;
+        display: flex;
+    }
+
+    #botaoVoltar{
+        border-radius: 10px !important;
+        border: none !important;
+        padding: 3px !important;
+        margin-bottom: 12px !important;
+        transition: transform .3s !important;
+        background-color: #f2e3d5 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .content2{
+        display: none !important;
+    }
+
+    .blocoElemento {
+        display: flex !important;
+        flex-direction: column !important;
+        max-width: 75px;
+        max-height: 75px;
+        width: 100% !important;
+        height: 100% !important;
+        margin: 70% 10% !important;
+        font-size: 18px !important;
+    }
+}
+
 .imagemElemento{
-    max-width: 100% !important;
-    max-height: 100% !important;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 3% !important;
-    margin: 3% !important;
-    margin-top: 5% !important;
+    margin: 3%;
+    margin-top: 5%;
 }
 
 .col-4{
@@ -116,9 +180,9 @@ main{
 .blocoElemento{
     display: flex !important;
     flex-direction: column !important;
-    max-width: 75px !important;
-    max-height: 75px !important;
+    max-width: 75px;
+    max-height: 75px;
     width: 100% !important;
     height: 100% !important;
-    margin: 80px 15px !important;
+    margin: 80px 15px;
 }
