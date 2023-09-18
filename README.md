@@ -43,7 +43,7 @@
   <li>Figma: https://www.figma.com/file/LUPhNwAEWnTGX3HLjm3YnU/Tabela-Peri%C3%B3dica?type=design&node-id=0%3A1&mode=design&t=JKGhv3s2PwNgjaVT-1</li>
   <li>Resumo (Docs): https://docs.google.com/document/d/1fr1e5FgnNZImwusV4t1PDfew5NqoM15oBLEDJZVRy6M/edit?usp=sharing</li>
   <li>Elementos 1-59 Tabela Periódica (Pesquisa): https://docs.google.com/document/d/18GtQGA81nkr9i1v1Hrrepr4T7q9Z9RxDR1meP4QqTJk/edit?usp=sharing</li>
-  <li>Elementos 59-118 Tabela Periódica (Pesquisa): https://docs.google.com/document/d/1_DloU9Kba6xyrWUVLjA1j5-lkYm426OEsQkVJ4dhAXw/edit?usp=sharing</li>
+  <li>Elementos 60-118 Tabela Periódica (Pesquisa): https://docs.google.com/document/d/1_DloU9Kba6xyrWUVLjA1j5-lkYm426OEsQkVJ4dhAXw/edit?usp=sharing</li>
 </ul>
 
 <hr>
