@@ -20,6 +20,7 @@ public record ElementoRecord(
         String anoDescoberta,
         String aplicacoesDoMaterial,
         double escalaDeAgressividade,
-        double escalaDeReutilizacao) {
+        double escalaDeReutilizacao,
+        String imagem) {
 
 }

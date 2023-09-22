@@ -39,6 +39,7 @@ public class Elemento {
     private double escalaDeAgressividade;
     @Column(name = "escala_de_reutilizacao")
     private double escalaDeReutilizacao;
+    private String imagem;
 
     public Elemento(ElementoRecord elemento) {
         this.numeroAtomico = elemento.numeroAtomico();
@@ -55,5 +56,6 @@ public class Elemento {
         this.aplicacoesDoMaterial = elemento.aplicacoesDoMaterial();
         this.escalaDeAgressividade = elemento.escalaDeAgressividade();
         this.escalaDeReutilizacao = elemento.escalaDeReutilizacao();
+        this.imagem = elemento.imagem();
     }
 }
