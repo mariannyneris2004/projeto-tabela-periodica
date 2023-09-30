@@ -81,7 +81,7 @@ main{
     }
 
     span{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .blocoElemento{
@@ -92,6 +92,7 @@ main{
         width: 100% !important;
         height: 100% !important;
         margin: 10px 1px !important;
+        align-items: center !important;
     }
     .row{
         justify-content: space-around;
@@ -123,8 +124,13 @@ main{
         max-height: 75px;
         width: 100% !important;
         height: 100% !important;
-        margin: 50% 10% !important;
-        font-size: 18px !important;
+        margin: 30% 60% 60% 30% !important;
+        font-size: 15px !important;
+        align-items: center !important;
+    }
+
+    span{
+        text-align: center !important;
     }
 }
 
@@ -149,7 +155,7 @@ main{
     justify-content: space-between;
     display: flex;
     max-height: 90% !important;
-    margin-top: 1% !important;
+    margin-top: .5% !important;
 }
 
 .numAtIn{
@@ -191,4 +197,7 @@ main{
     margin: 80px 15px;
 }
 
-/* Teste */
+.caption{
+    color: rgb(161, 161, 161);
+    font-size: 17px !important;
+}
