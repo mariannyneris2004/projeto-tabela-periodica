@@ -9,11 +9,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Table(name="elementos")
+@Table(name="elementos_tabela")
 @Entity(name = "Elemento")
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode(of = "numeroAtomico")
 public class Elemento {
     @Id
@@ -41,21 +40,24 @@ public class Elemento {
     private double escalaDeReutilizacao;
     private String imagem;
 
-    public Elemento(ElementoRecord elemento) {
-        this.numeroAtomico = elemento.numeroAtomico();
-        this.nome = elemento.nome();
-        this.sigla = elemento.sigla();
-        this.massa = elemento.massa();
-        this.pontoDeFusao = elemento.pontoDeFusao();
-        this.pontoDeEbulicao = elemento.pontoDeEbulicao();
-        this.densidade = elemento.densidade();
-        this.periodo = elemento.periodo();
-        this.familia = elemento.familia();
-        this.ondeEEncontradoNaNatureza = elemento.ondeEEncontradoNaNatureza();
-        this.anoDescoberta = elemento.anoDescoberta();
-        this.aplicacoesDoMaterial = elemento.aplicacoesDoMaterial();
-        this.escalaDeAgressividade = elemento.escalaDeAgressividade();
-        this.escalaDeReutilizacao = elemento.escalaDeReutilizacao();
-        this.imagem = elemento.imagem();
+    public Elemento(int numeroAtomico, String nome, String sigla, double massa, double pontoDeFusao,
+                    double pontoDeEbulicao, double densidade, int periodo, int familia,
+                    String ondeEEncontradoNaNatureza, String anoDescoberta, String aplicacoesDoMaterial,
+                    double escalaDeAgressividade, double escalaDeReutilizacao, String imagem) {
+        this.numeroAtomico = numeroAtomico;
+        this.nome = nome;
+        this.sigla = sigla;
+        this.massa = massa;
+        this.pontoDeFusao = pontoDeFusao;
+        this.pontoDeEbulicao = pontoDeEbulicao;
+        this.densidade = densidade;
+        this.periodo = periodo;
+        this.familia = familia;
+        this.ondeEEncontradoNaNatureza = ondeEEncontradoNaNatureza;
+        this.anoDescoberta = anoDescoberta;
+        this.aplicacoesDoMaterial = aplicacoesDoMaterial;
+        this.escalaDeAgressividade = escalaDeAgressividade;
+        this.escalaDeReutilizacao = escalaDeReutilizacao;
+        this.imagem = imagem;
     }
 }

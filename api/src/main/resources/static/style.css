@@ -1,0 +1,213 @@
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #026773 0%, #3CA6A6 97.40%) !important;
+    display: flex;
+}
+
+#elemento{
+    max-width: 75px !important;
+    width: 100% !important;
+    max-height: 75px !important;
+    height: 100% !important;
+    margin: 5px !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+div.familia{
+    width: 75px !important;
+    height: 75px !important;
+}
+
+div.elemento:hover{
+    zoom: .97 !important;
+    transition: .5s !important;
+    color: #026773 !important;
+    border-radius: 12px !important;
+    border: 1px solid #026773 !important;
+}
+
+main{
+    margin: auto !important;
+    display: flex;
+    flex-direction: row;
+}
+
+#botaoVoltar{
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 3px !important;
+    margin-bottom: 12px !important;
+    transition: transform .3s !important;
+    background-color: #f2e3d5 !important;
+    max-width: 50% !important;
+    width: 100% !important;
+}
+
+#botaoVoltar:hover{
+    transform: scale(1.1) !important;
+    background-color: #3CA6A6 !important;
+}
+
+.tituloTabela{
+    position: fixed !important;
+    color: #f2d3e5 !important;
+    margin-top: 15px !important;
+    margin-left: 15px !important;
+}
+
+.content,
+.content2{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #f2d3e5 !important;
+    border-radius: 3% !important;
+    max-width: 90% !important;
+    max-height: 85% !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 1% !important;
+    display: flex;
+    margin: auto !important;
+}
+
+@media screen and (max-width: 380px) {
+    .content{
+        display: none !important;
+    }
+
+    .imagemElemento{
+        max-width: 50% !important;
+        max-height: 50% !important;
+        border-radius: 3% !important;
+        margin: 3% !important;
+        margin-top: 5% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    span{
+        font-size: 12px;
+    }
+
+    .blocoElemento{
+        display: flex !important;
+        flex-direction: column !important;
+        max-width: 50px !important;
+        max-height: 55px !important;
+        width: 100% !important;
+        height: 100% !important;
+        margin: 10px 1px !important;
+        align-items: center !important;
+    }
+    .row{
+        justify-content: space-around;
+        display: flex;
+    }
+
+    #botaoVoltar{
+        border-radius: 10px !important;
+        border: none !important;
+        padding: 3px !important;
+        margin-bottom: 12px !important;
+        transition: transform .3s !important;
+        background-color: #f2e3d5 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .content2{
+        display: none !important;
+    }
+
+    .blocoElemento {
+        display: flex !important;
+        flex-direction: column !important;
+        max-width: 75px;
+        max-height: 75px;
+        width: 100% !important;
+        height: 100% !important;
+        margin: 30% 60% 60% 30% !important;
+        font-size: 15px !important;
+        align-items: center !important;
+    }
+
+    span{
+        text-align: center !important;
+    }
+}
+
+.imagemElemento{
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 3% !important;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+.col-4{
+    margin-top: 100% !important;
+    margin-bottom: 100% !important;
+    margin: auto !important;
+    display: flex !important;
+}
+
+.row{
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    max-height: 90% !important;
+    margin-top: .5% !important;
+}
+
+.numAtIn{
+    padding: 5px 0px 0px 7px !important;
+    font-size: 12px !important;
+}
+
+.simbIn{
+    text-align: center !important;
+    padding: 1px  1px 3px 0px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.nomeIn{
+    font-size: 12px !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 3px 0px 0px 0px !important;
+}
+
+.elemento{
+    background-color: antiquewhite;
+    border: 1px solid #012E40;
+    margin: 5px !important;
+    cursor: pointer !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoElemento{
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 75px;
+    max-height: 75px;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 80px 15px;
+}
+
+.caption{
+    color: rgb(161, 161, 161);
+    font-size: 17px !important;
+}

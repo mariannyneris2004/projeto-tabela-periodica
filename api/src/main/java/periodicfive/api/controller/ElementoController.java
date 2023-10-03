@@ -1,37 +1,33 @@
 package periodicfive.api.controller;
 
-import jakarta.transaction.Transactional;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import periodicfive.api.model.DadosListagemRecord;
+import org.springframework.web.servlet.ModelAndView;
 import periodicfive.api.model.Elemento;
-import periodicfive.api.model.ElementoRecord;
-import periodicfive.api.repositories.ElementoRepository;
+import periodicfive.api.services.ElementoService;
 
 import java.util.List;
-import java.util.Optional;
 
-@RestController
-@RequestMapping("elementos")
+@Controller
 public class ElementoController {
 
     @Autowired
-    private ElementoRepository repository;
+    private ElementoService service;
 
-    @PostMapping
-    @Transactional
-    public void cadastrar(@RequestBody @Valid ElementoRecord elemento){
-        repository.save(new Elemento(elemento));
+    @RequestMapping(value = "/elementos", method = RequestMethod.GET)
+    public ModelAndView getElementos(){
+        ModelAndView mv = new ModelAndView("elementos");
+        List<Elemento> elementos = service.findAll();
+        mv.addObject("elementos", elementos);
+        return mv;
     }
 
-    @GetMapping
-    public List<DadosListagemRecord> listar(){
-        return repository.findAll().stream().map(DadosListagemRecord::new).toList();
-    }
-
-    @GetMapping("/{id}")
-    public Optional<Elemento> encontrar(@PathVariable int id) {
-        return repository.findById(id);
+    @RequestMapping(value = "/elementos/{id}", method = RequestMethod.GET)
+    public ModelAndView getElementoDetails(@PathVariable("id") Integer numeroAtomico){
+        ModelAndView mv = new ModelAndView("elementoDetails");
+        Elemento elemento = service.findByNumeroAtomico(numeroAtomico);
+        mv.addObject("elemento", elemento);
+        return mv;
     }
 }
