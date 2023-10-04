@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://thymeleaf.org">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
     </style>
-    <link rel="icon" type="imagem/png" href="./img/favicon.ico" />
     <title>Tabela Periódica</title>
 </head>
 <body class="vh-100">
 <container class="content">
     <div class="container text-center">
-        <button type="button" id="botaoVoltar"><a href="/elementos">Voltar a Tabela</a></button>
+        <button type="button" id="botaoVoltar" th:onclick="'redirectToElementos()'">
+            Voltar a Tabela</button>
         <div class="row">
             <div class="col-6">
-                <img src="th:text='${elemento.imagem}'" alt="" class="imagemElemento">
+                <img th:src="${elemento.imagem}" alt="" class="imagemElemento">
             </div>
             <div class="col-6">
                 <div class="row">
@@ -70,15 +69,15 @@
                         </div>
                         <div class="blocoElemento">
                             <span class="caption">Temp Ebulição</span>
-                            <span class="tempEbuElemento">-259,2 ºC </span>
+                            <span class="tempEbuElemento" th:text="${elemento.pontoDeEbulicao}"></span>
                         </div>
                         <div class="blocoElemento">
                             <span class="caption">Família</span>
-                            <span class="familiaElemento">IA</span>
+                            <span class="familiaElemento" th:text="${elemento.familia}">IA</span>
                         </div>
                         <div class="blocoElemento">
                             <span class="caption">Aplicações</span>
-                            <span class="periodoElemento">Aplicações</span>
+                            <span class="periodoElemento" th:text="${elemento.aplicacoesDoMaterial}">Aplicações</span>
                             <!-- Lista? -->
                         </div>
                     </div>
@@ -92,7 +91,7 @@
     <div class="container text-center">
         <button type="button" id="botaoVoltar"><a href="/elementos">Voltar a Tabela</a></button>
         <div class="row">
-            <img src="./img/hidrogenio.jpg" alt="" class="imagemElemento">
+            <img src="" alt="" class="imagemElemento">
         </div>
 
         <div class="row">
@@ -146,6 +145,14 @@
             </div>
         </div>
     </div>
+
+    <script th:inline="javascript">
+    /*<![CDATA[*/
+    function redirectToElementos() {
+        window.location.href = '/elementos';
+    }
+    /*]]>*/
+    </script>
 </container>
 </body>
 </html>

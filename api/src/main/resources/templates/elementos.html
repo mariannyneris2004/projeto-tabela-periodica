@@ -19,131 +19,160 @@
 
 <main id="center">
     <div class="familia">
-        <div class="elemento" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 1}">
+        <div class="elemento"
+             id="elemento"
+             th:each="elemento : ${elementos}"
+             th:if="${elemento.familia == 1}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento dois" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 2}">
+        <div class="elemento dois" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 2}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3}">
+        <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento quatro" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 4}">
+        <div class="elemento quatro" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 4}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento cinco" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 5}">
+        <div class="elemento cinco" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 5}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento seis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 6}">
+        <div class="elemento seis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 6}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento sete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 7}">
+        <div class="elemento sete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 7}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento oito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 8}">
+        <div class="elemento oito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 8}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento nove" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 9}">
+        <div class="elemento nove" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 9}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento dez" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 10}">
+        <div class="elemento dez" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 10}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento onze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 11}">
+        <div class="elemento onze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 11}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento doze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 12}">
+        <div class="elemento doze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 12}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento treze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 13}">
+        <div class="elemento treze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 13}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento quatorze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 14}">
+        <div class="elemento quatorze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 14}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento quinze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 15}">
+        <div class="elemento quinze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 15}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento dezesseis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 16}">
+        <div class="elemento dezesseis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 16}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento dezessete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 17}">
+        <div class="elemento dezessete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 17}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
     <div class="familia">
-        <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 18}">
+        <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 18}"
+             th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
             <span th:text="${elemento.numeroAtomico}"></span>
             <span th:text="${elemento.sigla}"></span>
             <span th:text="${elemento.nome}"></span>
         </div>
     </div>
+
+    <script th:inline="javascript">
+    /*<![CDATA[*/
+    function redirectToElemento(numeroAtomico) {
+        window.location.href = '/elementos/' + numeroAtomico;
+    }
+    /*]]>*/
+    </script>
 
 
 </main>
