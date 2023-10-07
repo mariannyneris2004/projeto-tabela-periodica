@@ -4,12 +4,11 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Table(name="elementos_tabela")
+@Table(name="elementos")
 @Entity(name = "Elemento")
 @Getter
 @NoArgsConstructor
@@ -28,16 +27,16 @@ public class Elemento {
     private double densidade;
     private int periodo;
     private int familia;
-    @Column(name = "onde_e_encontrado_na_natureza")
-    private String ondeEEncontradoNaNatureza;
     @Column(name = "ano_descoberta")
     private String anoDescoberta;
-    @Column(name = "aplicacoes_do_material")
-    private String aplicacoesDoMaterial;
     @Column(name = "escala_de_agressividade")
     private double escalaDeAgressividade;
     @Column(name = "escala_de_reutilizacao")
     private double escalaDeReutilizacao;
+    @Column(name = "onde_e_encontrado_na_natureza")
+    private String ondeEEncontradoNaNatureza;
+    @Column(name = "aplicacoes_do_material")
+    private String aplicacoesDoMaterial;
     private String imagem;
 
     public Elemento(int numeroAtomico, String nome, String sigla, double massa, double pontoDeFusao,
