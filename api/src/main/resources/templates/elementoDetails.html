@@ -7,144 +7,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
     </style>
     <title>Tabela Periódica</title>
 </head>
 <body class="vh-100">
+    
 <container class="content">
-    <div class="container text-center">
-        <button type="button" id="botaoVoltar" th:onclick="'redirectToElementos()'">
-            Voltar a Tabela</button>
-        <div class="row">
-            <div class="col-6">
-                <img th:src="${elemento.imagem}" alt="" class="imagemElemento">
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="blocoElemento">
-                            <span class="caption">Título/Sigla</span>
+    <header class="header">
+        <h3 class="titulo" th:onclick="'redirectToElementos()'">Tabela Periódica</h3>
+    </header>
+    <div class="row">
+        <div class="col-6">
+            <div class="tabela">
+                <h5>Tabela de Informações</h5>
+                <br>
+                <table class="tabelaInformacoes">
+                    <tr class="linha">
+                        <td class="celula">
+                            <span class="caption">Título</span>
+                            <br>
                             <span class="tituloElemento" th:text="${elemento.nome}"></span>
+                        </td>
+                        <td class="celula">
+                            <span class="caption">Sigla</span>
+                            <br>
                             <span class="siglaElemento" th:text="${elemento.sigla}"></span>
-                        </div>
-
-                        <div class="blocoElemento">
+                        </td>
+                        <td class="celula">
+                            <span class="caption">Num Atómico</span>
+                            <br>
+                            <span class="numAtomico" th:text="${elemento.numeroAtomico}"></span>
+                        </td>
+                    </tr>
+                    <tr class="linha">
+                        <td class="celula">
                             <span class="caption">Densidade</span>
+                            <br>
                             <span class="densidadeElemento" th:text="${elemento.densidade}"></span>
-                        </div>
-                        <div class="blocoElemento">
-                            <span class="caption">Esc Agressividade</span>
-                            <span class="escAgrElemento" th:text="${elemento.escalaDeAgressividade}"></span>
-                        </div>
-                        <div class="blocoElemento">
-                            <span class="caption">Esc Reutilização</span>
-                            <span class="escReuElemento" th:text="${elemento.escalaDeReutilizacao}"></span>
-                        </div>
-                    </div>
-
-                    <div class="col-2">
-                        <div class="blocoElemento">
-                            <span class="caption">Massa</span>
-                            <span class="massaElemento" th:text="${elemento.massa}"></span>
-                        </div>
-                        <div class="blocoElemento">
+                        </td>
+                        <td class="celula">
                             <span class="caption">Temp Fusão</span>
+                            <br>
                             <span class="tempFusElemento" th:text="${elemento.pontoDeFusao}"></span>
-                        </div>
-                        <div class="blocoElemento">
-                            <span class="caption">Período</span>
-                            <span class="periodoElemento" th:text="${elemento.periodo}"></span>
-                        </div>
-                        <div class="blocoElemento">
-                            <span class="caption">Onde Encontrar</span>
-                            <span class="periodoElemento" th:text="${elemento.ondeEEncontradoNaNatureza}"></span>
-                            <!-- Lista? -->
-                        </div>
-                    </div>
-
-                    <div class="col-2">
-                        <div class="blocoElemento">
-                            <span class="caption">Ano Desc</span>
-                            <span class="anoDescElemento" th:text="${elemento.anoDescoberta}"></span>
-                        </div>
-                        <div class="blocoElemento">
+                        </td>
+                        <td class="celula">
                             <span class="caption">Temp Ebulição</span>
+                            <br>
                             <span class="tempEbuElemento" th:text="${elemento.pontoDeEbulicao}"></span>
-                        </div>
-                        <div class="blocoElemento">
+                        </td>
+                    </tr>
+                    <tr class="linha">
+                        <td class="celula">
+                            <span class="caption">Esc Agressividade</span>
+                            <br>
+                            <span class="escAgrElemento" th:text="${elemento.escalaDeAgressividade}"></span>
+                        </td>
+                        <td class="celula">
+                            <span class="caption">Período</span>
+                            <br>
+                            <span class="periodoElemento" th:text="${elemento.periodo}"></span>
+                        </td>
+                        <td class="celula">
                             <span class="caption">Família</span>
+                            <br>
                             <span class="familiaElemento" th:text="${elemento.familia}">IA</span>
-                        </div>
-                        <div class="blocoElemento">
-                            <span class="caption">Aplicações</span>
-                            <span class="periodoElemento" th:text="${elemento.aplicacoesDoMaterial}">Aplicações</span>
-                            <!-- Lista? -->
-                        </div>
-                    </div>
-                </div>
+                        </td>
+                    </tr>
+                    <tr class="linha">
+                        <td class="celula">
+                            <span class="caption">Esc Reutilização</span>
+                            <br>
+                            <span class="escReuElemento" th:text="${elemento.escalaDeReutilizacao}"></span>
+                        </td>
+                        <td class="celula">
+                            <span class="caption">Ano Desc</span>
+                            <br>
+                            <span class="anoDescElemento" th:text="${elemento.anoDescoberta}"></span>
+                        </td>
+                        <td class="celula">
+                            <span class="caption">Massa</span>
+                            <br>
+                            <span class="massaElemento" th:text="${elemento.massa}"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="ondeEncontrar">
+                <h5>Onde Encontrar</h5>
+                <br>
+                <span class="periodoElemento" th:text="${elemento.ondeEEncontradoNaNatureza}"></span>
+            </div>
+            <br>
+            <div class="aplicacao">
+                <h5>Aplicação</h5>
+                <br>
+                <span class="periodoElemento" th:text="${elemento.aplicacoesDoMaterial}">Aplicações</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="imgCenter">
+                <img th:src="${elemento.imagem}" alt="" class="imagemElemento">a
             </div>
         </div>
     </div>
 </container>
-
-<container class="content2">
-    <div class="container text-center">
-        <button type="button" id="botaoVoltar"><a href="/elementos">Voltar a Tabela</a></button>
-        <div class="row">
-            <img src="" alt="" class="imagemElemento">
-        </div>
-
-        <div class="row">
-            <div class="col-2">
-                <div class="blocoElemento">
-                    <span class="tituloElemento">Título</span>
-                    <span class="siglaElemento">Sigla</span>
-                </div>
-
-                <div class="blocoElemento">
-                    <span class="densidadeElemento">Densidade</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="escAgrElemento">Escala Agr</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="escReuElemento">Escala Reu</span>
-                </div>
-            </div>
-
-            <div class="col-2">
-                <div class="blocoElemento">
-                    <span class="massaElemento">Massa</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="tempFusElemento">Temp Fus</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="periodoElemento">Período</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="periodoElemento">Onde Encontrar</span>
-                    <!-- Lista? -->
-                </div>
-            </div>
-
-            <div class="col-2">
-                <div class="blocoElemento">
-                    <span class="anoDescElemento">Ano Desc</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="tempEbuElemento">Temp Ebu</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="familiaElemento">Família</span>
-                </div>
-                <div class="blocoElemento">
-                    <span class="periodoElemento">Aplicações</span>
-                    <!-- Lista? -->
-                </div>
-            </div>
-        </div>
-    </div>
 
     <script th:inline="javascript">
     /*<![CDATA[*/

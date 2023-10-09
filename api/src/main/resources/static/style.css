@@ -33,7 +33,7 @@ div.elemento:hover{
 }
 
 main{
-    margin: auto !important;
+    margin: 10% 0px !important;
     display: flex;
     flex-direction: row;
 }
@@ -61,66 +61,13 @@ main{
     margin-left: 15px !important;
 }
 
-.content,
-.content2{
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    color: #f2d3e5 !important;
-    border-radius: 3% !important;
-    max-width: 90% !important;
-    max-height: 85% !important;
+.content{
+    color: whitesmoke !important;
     width: 100% !important;
     height: 100% !important;
-    padding: 1% !important;
-    display: flex;
     margin: auto !important;
 }
 
-@media screen and (max-width: 380px) {
-    .content{
-        display: none !important;
-    }
-
-    .imagemElemento{
-        max-width: 50% !important;
-        max-height: 50% !important;
-        border-radius: 3% !important;
-        margin: 3% !important;
-        margin-top: 5% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    span{
-        font-size: 12px;
-    }
-
-    .blocoElemento{
-        display: flex !important;
-        flex-direction: column !important;
-        max-width: 50px !important;
-        max-height: 55px !important;
-        width: 100% !important;
-        height: 100% !important;
-        margin: 10px 1px !important;
-        align-items: center !important;
-    }
-    .row{
-        justify-content: space-around;
-        display: flex;
-    }
-
-    #botaoVoltar{
-        border-radius: 10px !important;
-        border: none !important;
-        padding: 3px !important;
-        margin-bottom: 12px !important;
-        transition: transform .3s !important;
-        background-color: #f2e3d5 !important;
-        max-width: 100% !important;
-        width: 100% !important;
-        font-size: 10px !important;
-    }
-}
 
 @media screen and (min-width: 380px) {
     .content2{
@@ -159,13 +106,23 @@ main{
     display: flex !important;
 }
 
+.tabela{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.celula{
+    padding: 10px !important;
+}
+
 .row{
     justify-content: space-between;
     display: flex;
     justify-content: space-between;
     display: flex;
     max-height: 90% !important;
-    margin-top: .5% !important;
+    margin: 3% !important;
 }
 
 .numAtIn{
@@ -210,4 +167,45 @@ main{
 .caption{
     color: rgb(161, 161, 161);
     font-size: 17px !important;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.750) !important;
+    padding: 1% !important;
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.titulo{
+    font-family: 'Courgette', cursive !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.imgCenter{
+    display: flex !important;
+    justify-content: center !important;
+    width: 600px !important;
+    height: 750px !important;
+    background-color: black;
+    border-radius: 10px !important;
+    align-items: center;
+    margin: 10px !important;
+}
+
+.tabelaperiodica{
+    display: flex !important;
+    height: 800px;
+}
+
+.TabelaPeriodica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tabelaperiodicaLinhas{
+    display: flex;
+    justify-content: flex-end;
 }
