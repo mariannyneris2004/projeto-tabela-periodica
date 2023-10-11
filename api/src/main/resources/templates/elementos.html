@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="familia">
-                <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3}"
+                <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3 && elemento.numeroAtomico < 40}"
                      th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                     <span th:text="${elemento.numeroAtomico}"></span>
                     <span th:text="${elemento.sigla}"></span>
@@ -170,7 +170,7 @@
         </div>
         
         <div class="tabelaperiodicaLinhas">
-            <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 8 and elemento.familia == 19}"
+            <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 6 && elemento.familia == 3}"
                  th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                 <span th:text="${elemento.numeroAtomico}"></span>
                 <span th:text="${elemento.sigla}"></span>

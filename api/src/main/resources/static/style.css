@@ -22,6 +22,8 @@ body{
 div.familia{
     width: 75px !important;
     height: 75px !important;
+    align-content: flex-end;
+    display: grid;
 }
 
 div.elemento:hover{
@@ -33,9 +35,9 @@ div.elemento:hover{
 }
 
 main{
-    margin: 10% 0px !important;
     display: flex;
     flex-direction: row;
+    margin-bottom: 3% !important;
 }
 
 #botaoVoltar{
@@ -186,8 +188,8 @@ main{
 .imgCenter{
     display: flex !important;
     justify-content: center !important;
-    width: 600px !important;
-    height: 750px !important;
+    width: 45vw !important;
+    height: 75vh !important;
     background-color: black;
     border-radius: 10px !important;
     align-items: center;
@@ -197,6 +199,8 @@ main{
 .tabelaperiodica{
     display: flex !important;
     height: 800px;
+    margin-top: 3% !important;
+    align-items: flex-end;
 }
 
 .TabelaPeriodica{
