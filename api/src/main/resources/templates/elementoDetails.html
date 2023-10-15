@@ -17,8 +17,9 @@
     <header class="header">
         <h3 class="titulo" th:onclick="'redirectToElementos()'">Tabela Periódica</h3>
     </header>
+    
     <div class="row">
-        <div class="col-6">
+        <div class="col-6-fluid-center">
             <div class="tabela">
                 <h5>Tabela de Informações</h5>
                 <br>
@@ -59,7 +60,7 @@
                     </tr>
                     <tr class="linha">
                         <td class="celula">
-                            <span class="caption">Esc Agressividade</span>
+                            <span class="caption">Esc Agressividade*</span>
                             <br>
                             <span class="escAgrElemento" th:text="${elemento.escalaDeAgressividade}"></span>
                         </td>
@@ -76,7 +77,7 @@
                     </tr>
                     <tr class="linha">
                         <td class="celula">
-                            <span class="caption">Esc Reutilização</span>
+                            <span class="caption">Esc Reutilização**</span>
                             <br>
                             <span class="escReuElemento" th:text="${elemento.escalaDeReutilizacao}"></span>
                         </td>
@@ -105,14 +106,30 @@
                 <br>
                 <span class="periodoElemento" th:text="${elemento.aplicacoesDoMaterial}">Aplicações</span>
             </div>
+            <div class="exlicacoes">
+                <br>
+                <h5>Escala de Agressividade</h5>
+                <br>
+                <p class="textoAgressividade">Escala definida com base nos dados oferecidos por ...</p>
+                <br>
+                <h5>Escala de Reutilização</h5>
+                <br>
+                <p class="textoAgressividade">Escala definida com base nos dados oferecidos por ...</p>
+            </div>
         </div>
         <div class="col-6">
-            <div class="imgCenter">
-                <img th:src="${elemento.imagem}" alt="" class="imagemElemento">a
+            <div class="imgCenter-fluid">
+                <img th:src="${elemento.imagem}" alt="" class="imagemElemento">
             </div>
         </div>
     </div>
 </container>
+
+<footer class="text-light text-center py-3" style="padding: 5px !important;">
+    <div class="">
+        &copy; 2023 Periodic Five. Todos os direitos reservados.
+    </div>
+</footer>
 
     <script th:inline="javascript">
     /*<![CDATA[*/
