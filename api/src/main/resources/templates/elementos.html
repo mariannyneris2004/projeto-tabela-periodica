@@ -43,12 +43,14 @@
                 <div class="familia">
                     <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3 && elemento.numeroAtomico < 40}"
                      th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
+                        <span th:text="${elemento.numeroAtomico}"></span>
+                        <span th:text="${elemento.sigla}"></span>
+                        <span th:text="${elemento.nome}"></span>
+                    </div>
+                    <div class="elemento tres" id = "elemento">
                         <p>57-71</p>
                     </div>
-                </div>
-                <div class="familia">
-                    <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3 && elemento.numeroAtomico < 40}"
-                     th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
+                    <div class="elemento tres" id = "elemento">
                         <p>89-103</p>
                     </div>
                 </div>
