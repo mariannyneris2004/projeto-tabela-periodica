@@ -177,17 +177,21 @@
             </div>
             
             <div class="tabelaperiodicaLinhas">
-                <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 6 && elemento.familia == 3}"
+                <div class="linha1">
+                    <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 6 && elemento.familia == 3}"
                      th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
-                    <span th:text="${elemento.numeroAtomico}"></span>
-                    <span th:text="${elemento.sigla}"></span>
-                    <span th:text="${elemento.nome}"></span>
+                        <span th:text="${elemento.numeroAtomico}"></span>
+                        <span th:text="${elemento.sigla}"></span>
+                        <span th:text="${elemento.nome}"></span>
+                    </div>
                 </div>
-                <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 7 && elemento.familia == 3}"
-                     th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
-                    <span th:text="${elemento.numeroAtomico}"></span>
-                    <span th:text="${elemento.sigla}"></span>
-                    <span th:text="${elemento.nome}"></span>
+                <div class="linha2">
+                    <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.periodo == 7 && elemento.familia == 3}"
+                    th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
+                        <span th:text="${elemento.numeroAtomico}"></span>
+                        <span th:text="${elemento.sigla}"></span>
+                        <span th:text="${elemento.nome}"></span>
+                    </div>
                 </div>
             </div>
         </div>

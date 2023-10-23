@@ -26,12 +26,15 @@ body{
 
 #elemento{
     max-width: 75px !important;
-    width: 100% !important;
+    width: 73px !important;
     max-height: 75px !important;
-    height: 100% !important;
+    height: 73px !important;
     margin: 0px !important;
     font-weight: 600 !important;
     font-size: 12px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 div.familia{
@@ -42,7 +45,6 @@ div.familia{
 }
 
 div.elemento:hover{
-    zoom: .97 !important;
     transition: .5s !important;
     color: #026773 !important;
     border-radius: 12px !important;
@@ -104,6 +106,7 @@ main{
 
     span{
         text-align: center !important;
+        font-size: 9px !important;
     }
 }
 
@@ -119,11 +122,14 @@ main{
 }
 
 .imagemElemento{
-    width: 45vw;
-    height: 75vh;
+    width: 35vw;
+    height: 60vh;
     border-radius: 3% !important;
     margin: 3%;
     margin-top: 5%;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    position: fixed !important
 }
 
 .col-4{
@@ -131,6 +137,10 @@ main{
     margin-bottom: 100% !important;
     margin: auto !important;
     display: flex !important;
+}
+
+.col-6 {
+    margin: 12px !important
 }
 
 .tabela{
@@ -213,13 +223,16 @@ main{
 .imgCenter-fluid{
     display: flex !important;
     justify-content: center !important;
-    width: 45vw;
-    height: 75vh;
+    width: 35vw;
+    height: 60vh;
     background-color: black;
     border-radius: 10px !important;
     align-items: center;
     margin: 10px !important;
     margin-bottom: 50px !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    position: fixed !important
 }
 
 .tabelaperiodica{
@@ -256,4 +269,20 @@ footer {
 
 .espaco{
     padding: 18px !important;
+}
+
+.linha1 {
+    display: flex !important;
+}
+
+.linha2{
+    display: flex !important;
+}
+
+.textoReutilização{
+    margin-bottom: 50px !important;
+}
+
+.aplicacao{
+    text-align: justify !important;
 }
