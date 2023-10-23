@@ -6,10 +6,10 @@ CREATE TABLE IF NOT EXISTS elementos(
 numero_atomico INT PRIMARY KEY NOT NULL,
 nome VARCHAR(20) UNIQUE NOT NULL,
 sigla VARCHAR(3) UNIQUE NOT NULL,
-massa DECIMAL(10,3)NOT NULL,
-ponto_de_fusao DECIMAL(10,3)NOT NULL,
-ponto_de_ebulicao DECIMAL(10,3)NOT NULL,
-densidade DECIMAL(12,8)NOT NULL,
+massa DECIMAL(10,3),
+ponto_de_fusao DECIMAL(10,3),
+ponto_de_ebulicao DECIMAL(10,3),
+densidade DECIMAL(12,8),
 periodo INT NOT NULL,
 familia INT NOT NULL,
 ano_descoberta VARCHAR(20) NOT NULL,
@@ -20,7 +20,11 @@ aplicacoes_do_material TEXT NOT NULL,
 imagem VARCHAR(300)
 );
 
-# !lembrar de devolver os NOT NULL no futuro!
+# SELECT * FROM elementos;
 
+
+
+#-----------------------------------
 # DROP DATABASE tabela_periodica;
 # DROP TABLE elementos;
+#-----------------------------------
