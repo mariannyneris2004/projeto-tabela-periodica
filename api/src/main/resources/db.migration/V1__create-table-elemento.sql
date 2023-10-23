@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS elementos(
     massa DECIMAL NOT NULL,
     ponto_de_fusao DECIMAL NOT NULL,
     ponto_de_ebulicao DECIMAL NOT NULL,
-    densidade DECIMAL NOT NULL,
+    densidade DECIMAL,
     periodo INT NOT NULL,
     familia INT NOT NULL,
     ano_descoberta VARCHAR(20) NOT NULL,

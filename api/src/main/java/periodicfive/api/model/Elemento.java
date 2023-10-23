@@ -1,9 +1,11 @@
 package periodicfive.api.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Null;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,11 +22,12 @@ public class Elemento {
     private String nome;
     private String sigla;
     private double massa;
-    @Column(name = "ponto_de_fusao")
-    private double pontoDeFusao;
-    @Column(name = "ponto_de_ebulicao")
-    private double pontoDeEbulicao;
-    private double densidade;
+    @Column(name = "ponto_de_fusao", nullable = true)
+    private Double pontoDeFusao;
+    @Column(name = "ponto_de_ebulicao", nullable = true)
+    private Double pontoDeEbulicao;
+    @Column(nullable = true)
+    private Double densidade;
     private int periodo;
     private int familia;
     @Column(name = "ano_descoberta")
@@ -33,10 +36,11 @@ public class Elemento {
     private double escalaDeAgressividade;
     @Column(name = "escala_de_reutilizacao")
     private double escalaDeReutilizacao;
-    @Column(name = "onde_e_encontrado_na_natureza")
+    @Column(name = "onde_e_encontrado_na_natureza", columnDefinition = "TEXT")
     private String ondeEEncontradoNaNatureza;
-    @Column(name = "aplicacoes_do_material")
+    @Column(name = "aplicacoes_do_material", columnDefinition = "TEXT")
     private String aplicacoesDoMaterial;
+    @Column(length = 300)
     private String imagem;
 
     public Elemento(int numeroAtomico, String nome, String sigla, double massa, double pontoDeFusao,
