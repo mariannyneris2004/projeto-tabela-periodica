@@ -7,8 +7,8 @@ numero_atomico INT PRIMARY KEY NOT NULL,
 nome VARCHAR(20) UNIQUE NOT NULL,
 sigla VARCHAR(3) UNIQUE NOT NULL,
 massa DECIMAL(10,3),
-ponto_de_fusao DECIMAL(10,3),
-ponto_de_ebulicao DECIMAL(10,3),
+ponto_de_fusao DECIMAL(10,4),
+ponto_de_ebulicao DECIMAL(10,4),
 densidade DECIMAL(12,8),
 periodo INT NOT NULL,
 familia INT NOT NULL,
@@ -21,7 +21,7 @@ imagem VARCHAR(300)
 );
 
 # SELECT * FROM elementos;
-
+# DELETE FROM elementos;
 
 
 #-----------------------------------

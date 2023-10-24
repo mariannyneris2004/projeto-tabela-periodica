@@ -1167,7 +1167,7 @@ Dentre outros processos, o praseodímio pode ser produzido pela redução do clo
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1028054016/pt/vetorial/the-periodic-table-element-polonium-vector-illustration.jpg?s=612x612&w=0&k=20&c=9_2JXu4b7zfiu3S7Lu1HPPYqR6pGxL4oF6QsRDW8DNo='),
 /*-------- Astato  -----------------*/
-(85,'Ástato ','At',210,302,337,null,6,17,'1898',7,1,
+(85,'Ástato ','At',210,302,337,0.0,6,17,'1898',7,1,
 'Podemos considerar o astato como sendo o elemento mais raro na natureza; a quantidade total na crosta terrestre pode não passar de 1 grama.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O isótopo astato-211 tem sido pesquisado para aplicação em medicina nuclear; sendo um potencial substituto para o uso de isótopos de iodo. Atualmente praticamente não existe uso para o elemento fora da pesquisa científica. Algumas propriedades do Astatine ainda não são conhecidas, por exemplo a sua cor.',
@@ -1181,7 +1181,7 @@ Dentre outros processos, o praseodímio pode ser produzido pela redução do clo
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1032451052/pt/vetorial/the-periodic-table-element-radon-vector-illustration.jpg?s=612x612&w=0&k=20&c=QNhbVyWSSZXzbszSsntOSlJ5FhAKHwclFO9ilzlg-h4='),
 /*-------- Frâncio -----------------*/
-(87,'Frâncio','Fr',223,27,677,null,7,1,'1939',8,1,
+(87,'Frâncio','Fr',223,27,677,0.0,7,1,'1939',8,1,
 'Existem apenas 20–30 g em qualquer momento em toda a crosta terrestre; os outros isótopos (exceto o frâncio-221) são inteiramente sintéticos.',
 #--------------------------------------------------------------------------------------------------------------------------
 'Por causa de sua alta instabilidade e tempo de meia-vida bastante curto de 22 minutos, o elemento frâncio não tem uso comercial. Estudos do frâncio com laser tem aplicação científica em confirmações na área da quântica.',
@@ -1251,154 +1251,154 @@ Dentre outros processos, o praseodímio pode ser produzido pela redução do clo
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1352244309/pt/vetorial/curium-symbol-chemical-element-of-the-periodic-table-vector-stock-illustration.jpg?s=612x612&w=0&k=20&c=sodsbHAH3Sa4CRuiFsgU6zE-SlA3CHJMnYPYxR4rM6A='),
 /*-------- Berquélio  -----------------*/
-(97,'Berquélio ','Bk',247,1047,null,14.49,7,3,'1949',6,1,
+(97,'Berquélio ','Bk',247,1047,0.0,14.49,7,3,'1949',6,1,
 'Encontrado na natureza como resultado do resíduo produzido dos testes de bombas nucleares realizados no passado.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O isótopo de berquélio-249 é usado como alvo na preparação sintética de elementos químicos mais massivos (com mais prótons); um dos elementos obtidos foi o tennesso.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1040944820/pt/vetorial/the-periodic-table-element-berkelium-vector-illustration.jpg?s=612x612&w=0&k=20&c=sxxLHFezuDqEh1hqKTD9gC7LgUijVSkUuDo3g_BGyU8='),
 /*-------- Califórnio -----------------*/
-(98,'Califórnio','Cf',252,897,null,15.1,7,3,'1950',6,1,
+(98,'Califórnio','Cf',252,897,0.0,15.1,7,3,'1950',6,1,
 'Encontrado na natureza como resultado do resíduo produzido dos testes de bombas nucleares realizados no passado.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O Califórnio é utilizado em equipamentos para caracterização de poços de petróleo. O Califórnio é uma boa fonte de nêutrons que pode ser usado em detectores portáteis para análise de metais. Também pode ser utilizado para tratamento de alguns tipos específicos de câncer; por exemplo, câncer cervical ou no cérebro.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1043065558/pt/vetorial/the-periodic-table-element-californium-vector-illustration.jpg?s=612x612&w=0&k=20&c=vf7G4S9p5DAh_COVRlml721gkNl1e-bOCfQDYfvktCU='),
 /*-------- Einstênio -----------------*/
-(99,'Einstênio','Es',252,860,null,null,7,3,'1952',6,1,
+(99,'Einstênio','Es',252,860,0.0,0.0,7,3,'1952',6,1,
 'Este metal não é encontrado de forma natural, ele é produzido de forma artificial.',
 #--------------------------------------------------------------------------------------------------------------------------
 'Os cientistas sabem muito pouco sobre o einstênio, mas ele representa uma ameaça à saúde humana.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1043065562/pt/vetorial/the-periodic-table-element-einsteinium-vector-illustration.jpg?s=612x612&w=0&k=20&c=A6A0kihNKqk0en_Rz_Cw4ipiSU5sGAQEgvpOZ2YMlc0='),
 /*-------- Férmio -----------------*/
-(100,'Férmio','Fm',257,null,null,null,7,3,'1952',6,1,
+(100,'Férmio','Fm',257,0.0,0.0,0.0,7,3,'1952',6,1,
 'O férmio não ocorre naturalmente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O Férmio é estudado em poucos laboratórios de investigação, onde a sua elevada radioatividade requer cuidados especiais de manuseamento e técnicas apropriadas. O férmio não possui aplicações.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1043065564/pt/vetorial/the-periodic-table-element-fermium-vector-illustration.jpg?s=612x612&w=0&k=20&c=xXEcaEcFEhl6GrHopE6A18YmoBGMSawp9dRTQfIhIEE='),
 /*-------- Mendelévio -----------------*/
-(101,'Mendelévio','Md',258,null,null,null,7,3,'1955',6,1,
+(101,'Mendelévio','Md',258,0.0,0.0,0.0,7,3,'1955',6,1,
 'O mendelévio não é encontrado de forma natural.',
 #--------------------------------------------------------------------------------------------------------------------------
 'É estudado em poucos laboratórios de investigação, onde a sua elevada radioatividade requer cuidados especiais de manuseamento e técnicas apropriadas. O mendelévio não possui aplicações.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1064808720/pt/vetorial/the-periodic-table-element-mendelevium-vector-illustration.jpg?s=612x612&w=0&k=20&c=fgg4sA7BeL9khDcm45pBTLEw-3Vn0OHQvKoqQKQF1yU='),
 /*-------- Nobélio -----------------*/
-(102,'Nobélio','No',259,null,null,null,7,3,'1957',6,1,
+(102,'Nobélio','No',259,0.0,0.0,0.0,7,3,'1957',6,1,
 'O Nobélio não é encontrado na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'É estudado em poucos laboratórios de investigação, onde a sua elevada radioatividade requer cuidados especiais de manuseamento e técnicas apropriadas. O nobélio não possui aplicações.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1064809212/pt/vetorial/the-periodic-table-element-nobelium-vector-illustration.jpg?s=612x612&w=0&k=20&c=O3vikldQqc46IW2CAhhGKdKEebZYFQgnbi4okZvXA4Y='),
 /*-------- Laurêncio -----------------*/
-(103,'Laurêncio','lr',262,null,null,null,7,3,'1961',6,1,
+(103,'Laurêncio','lr',262,0.0,0.0,0.0,7,3,'1961',6,1,
 'O laurêncio não é possível de ser obtido de forma natural.',
 #--------------------------------------------------------------------------------------------------------------------------
 'É estudado em poucos laboratórios de investigação, onde a sua elevada radioatividade requer cuidados especiais de manuseamento e técnicas apropriadas. O laurêncio não possui aplicações.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1064808524/pt/vetorial/the-periodic-table-element-lawrencium-vector-illustration.jpg?s=612x612&w=0&k=20&c=HarQkTqvi_12CeCBMT2JKTc9CcpV4aP694QUkk9g6Fw='),
 /*-------- Rutherfórdio -----------------*/
-(104,'Rutherfórdio','Rf',267,null,null,23,7,4,'1969',6,1,
+(104,'Rutherfórdio','Rf',267,0.0,0.0,23,7,4,'1969',6,1,
 'O rutherfórdio por ser um elemento sintético, não é encontrado na natureza e só pode ser criado em laboratório.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O rutherfórdio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1064809540/pt/vetorial/the-periodic-table-element-rutherfordium-vector-illustration.jpg?s=612x612&w=0&k=20&c=gkUssBxiTTNU7f1pIxPFI48PtVIkRkAq18fKJq8XMdk='),
 /*-------- Dúbnio -----------------*/
-(105,'Dúbnio','Db',268,null,null,29,7,5,'1968',6,1,
+(105,'Dúbnio','Db',268,0.0,0.0,29,7,5,'1968',6,1,
 'O Dúbnio não ocorre naturalmente na Terra e é produzido artificialmente.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O dúbnio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1064808658/pt/vetorial/the-periodic-table-element-dubnium-vector-illustration.jpg?s=612x612&w=0&k=20&c=1SRBBDuSwleOT1dfFoGzsMrK2pwlaQumUpoVG_pJSo4='),
 /*-------- Seabórgio -----------------*/
-(106,'Seabórgio','Sg',271,null,null,35,7,6,'1974',6,1,
+(106,'Seabórgio','Sg',271,0.0,0.0,35,7,6,'1974',6,1,
 'O seabórgio como elemento sintético, pode ser criado em laboratório, mas não é encontrado na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O seabórgio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1065432442/pt/vetorial/the-periodic-table-element-seaborgium-vector-illustration.jpg?s=612x612&w=0&k=20&c=QO146OVkVHFQRphJmC-pD21M7qfr4a6s2sRIhIOdggM='),
 /*-------- Bóhrio -----------------*/
-(107,'Bóhrio','Bh',272,null,null,37,7,7,'1981',6,1,
+(107,'Bóhrio','Bh',272,0.0,0.0,37,7,7,'1981',6,1,
 'O bóhrio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O bóhrio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'O bóhrio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.'),
 /*-------- Hássio -----------------*/
-(108,'Hássio','Hs',277,null,null,41,7,8,'1984',6,1,
+(108,'Hássio','Hs',277,0.0,0.0,41,7,8,'1984',6,1,
 'O hássio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O hássio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1065432438/pt/vetorial/the-periodic-table-element-hassium-vector-illustration.jpg?s=612x612&w=0&k=20&c=Q3SS9IlYcgT77dp6Y9MdDf7Zcj8YrIe3cBZchmQv0ow='),
 /*-------- Meitnério -----------------*/
-(109,'Meitnério','Mt',276,null,null,null,7,9,'1982',6,1,
+(109,'Meitnério','Mt',276,0.0,0.0,0.0,7,9,'1982',6,1,
 'O meitnério não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O meitnério não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1065432430/pt/vetorial/the-periodic-table-element-meitnerium-vector-illustration.jpg?s=612x612&w=0&k=20&c=xIcezYdFzdSplZ_tp68Akw_-t2apF-ksrZXvQvxOfMc='),
 /*-------- Darmstádtio -----------------*/
-(110,'Darmstádtio','Ds',281,null,null,null,7,10,'1994',6,1,
+(110,'Darmstádtio','Ds',281,0.0,0.0,0.0,7,10,'1994',6,1,
 'O darmstádtio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O darmstádtio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases. O ponto de ebulição e o ponto de fusão do darmstádtio são desconhecidos.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1065431950/pt/vetorial/the-periodic-table-element-darmstadtium-vector-illustration.jpg?s=612x612&w=0&k=20&c=io7jfYXdGF2obGV5x_z7g9wo0hAzOzKamAnL5z_rYFQ='),
 /*-------- Roentgênio -----------------*/
-(111,'Roentgênio','Rg',280,Null,Null,Null,7,11,'1994',6,1,
+(111,'Roentgênio','Rg',280,0.0,0.0,0.0,7,11,'1994',6,1,
 'O roentgênio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O roentgênio não apresenta aplicações práticas e desconhecem-se as suas reações com o ar, a água, os halogéneos, os ácidos e as bases. Ninguém sabe ao certo como é o roentgênio.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1239109475/pt/vetorial/the-periodic-table-element-roentgenium-vector-illustration.jpg?s=612x612&w=0&k=20&c=wYgUO_BeJulnChVmBLRZQuL_69eJSNa7qAFDzVvOtfk='),
 /*-------- Copernício -----------------*/
-(112,'Copernício','Cn',285,Null,Null,Null,7,12,'1996',6,1,
+(112,'Copernício','Cn',285,0.0,0.0,0.0,7,12,'1996',6,1,
 'O copernício é um elemento sintético extremamente radioativo que não ocorre na natureza e só pode ser criado em laboratório.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O copernício não apresenta aplicações práticas.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1414007584/pt/vetorial/copernicium-symbol-chemical-element-of-the-periodic-table-vector-illustration.jpg?s=612x612&w=0&k=20&c=GfGBrC36ON0m6rWlnmn2GYJzaiLkyCubMfGaH7KGRXc='),
 /*-------- Nihônio -----------------*/
-(113,'Nihônio','Nh',284,Null,Null,Null,7,13,'2003',6,1,
+(113,'Nihônio','Nh',284,0.0,0.0,0.0,7,13,'2003',6,1,
 'O nihônio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O nihônio não apresenta aplicações práticas.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1414749353/pt/vetorial/nihonium-symbol-chemical-element-of-the-periodic-table-vector-illustration.jpg?s=612x612&w=0&k=20&c=_tZAAEf7CrS5S4Kkml-HKnU16JTUW1Kb7ijTEyzvZWE='),
 /*-------- Fleróvio -----------------*/
-(114,'Fleróvio','Fl',289,Null,Null,Null,7,14,'1998',6,1,
+(114,'Fleróvio','Fl',289,0.0,0.0,0.0,7,14,'1998',6,1,
 'O fleróvio não se encontra presente na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O fleróvio não apresenta aplicações práticas.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1242768861/pt/vetorial/the-periodic-table-element-flerovium-vector-illustration.jpg?s=612x612&w=0&k=20&c=0yncnLbueIpOX194GRZprisklySRizZAoUjU9LW_E2s='),
 /*-------- Moscóvio -----------------*/
-(115,'Moscóvio','Mc',288,Null,Null,Null,7,15,'2003',6,1,
+(115,'Moscóvio','Mc',288,0.0,0.0,0.0,7,15,'2003',6,1,
 'O moscóvio é um elemento sintético, o que quer dizer que ele só pode ser produzido em laboratório. Isso é muito comum entre os elementos superpesados porque seu núcleo, com muitos prótons e nêutrons, não consegue se estabilizar, fazendo com que não seja possível encontrá-los na natureza.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O moscóvio não apresenta aplicações práticas. O moscóvio é um elemento extremamente radioativo: seu isótopo conhecido mais estável, o moscovium-290, tem meia-vida de apenas 0,65 segundos.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1414749932/pt/vetorial/moscovium-symbol-chemical-element-of-the-periodic-table-vector-illustration.jpg?s=612x612&w=0&k=20&c=AgjmUX27GWX5pvcGBl7CI_sCC2wreDqOowW2d_U79Sg='),
 /*-------- Livermório -----------------*/
-(116,'Livermório','Lv',293,Null,Null,Null,7,16,'2000',6,1,
+(116,'Livermório','Lv',293,0.0,0.0,0.0,7,16,'2000',6,1,
 'O livermório não se encontra presente na natureza, sendo assim um elemento sintético. O Livermorium é produzido bombardeando Cúrio com Cálcio.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O livermório não apresenta aplicações práticas. Durante os experimentos foram sintetizados apenas poucos átomos de livermório, que, por ser extremamente instável, dura menos de um segundo.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1414744708/pt/vetorial/livermorium-symbol-chemical-element-of-the-periodic-table-vector-illustration.jpg?s=612x612&w=0&k=20&c=0f4UwrhysdQypY2L2wgarNIIlQsX5YbrdCzSQclpuZQ='),
 /*-------- Tennesso -----------------*/
-(117,'Tennesso','Ts',294,Null,Null,Null,7,17,'2010',6,1,
+(117,'Tennesso','Ts',294,0.0,0.0,0.0,7,17,'2010',6,1,
 'O tennesso não é encontrado na natureza na forma de nenhum isótopo e, por isso, deve ser produzido em laboratório, sendo portanto um elemento químico sintético.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O tennesso não apresenta aplicações práticas.',
 #-------------------------------------------------------------------------------------------------------------------------
 'https://media.istockphoto.com/id/1415322837/pt/vetorial/tennessine-symbol-chemical-element-of-the-periodic-table-vector-illustration.jpg?s=612x612&w=0&k=20&c=kmaUZo01lbByjfK7tV0LZFh1t-7MbDfWo5HlbpjQDRo='),
 /*-------- Oganessônio -----------------*/
-(118,'Oganessônio','Og',294,Null,Null,Null,7,18,'1879',6,1,
+(118,'Oganessônio','Og',294,0.0,0.0,0.0,7,18,'1879',6,1,
 'O oganessônio não pode ser encontrado na natureza, e sua produção é artificial, sendo então considerado um elemento sintético.',
 #--------------------------------------------------------------------------------------------------------------------------
 'O oganessônio não apresenta aplicações práticas. sua meia-vida é menor do que um milissegundo (10-3 segundo).',
