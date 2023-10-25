@@ -78,6 +78,7 @@ main{
     color: #f2d3e5 !important;
     margin-top: 15px !important;
     margin-left: 15px !important;
+    font-family: 'Courgette', cursive;
 }
 
 .content{
@@ -87,37 +88,126 @@ main{
     margin: auto !important;
 }
 
-@media screen and (min-width: 380px) {
-    .content2{
-        display: none !important;
+@media screen and (max-width: 1300px) {
+    .TabelaPeriodica {
+        padding-top: 50px !important;
     }
 
-    .blocoElemento {
+    .tabelaperiodica {
+        margin: 30px !important;
+        flex-direction: row !important; /* Ajusta o layout das linhas */
+        flex-wrap: wrap;
+        margin-bottom: 20px !important;
+    }
+
+    .elemento {
+        width: 60px !important; /* Largura dos elementos */
+        height: 60px !important; /* Altura dos elementos */
+        font-size: 10px !important; /* Tamanho da fonte */
+    }
+
+    .tabelaperiodicaLinhas{
+        justify-content: center !important;
+        align-items: center !important;    
+        margin: 450px 15px 3% 15px !important;
+    }
+
+    .linha1, .linha2 {
+        flex-direction: row !important; /* Ajusta o layout das linhas */
+        flex-wrap: wrap;
+    }
+
+    .col-5 {
+        flex: 1 !important; /* Ajusta a largura da coluna */
+        margin: 0 !important;
+    }
+
+    .tabela {
+        margin-bottom: 20px !important; /* Adiciona espaço abaixo da tabela */
+    }
+
+    .elemento {
+        margin: 5px 0 !important; /* Ajusta o espaçamento entre elementos */
+        width: 80px !important; /* Ajusta a largura dos elementos */
+        height: 80px !important; /* Ajusta a altura dos elementos */
+    }
+
+    .elemento p {
+        font-size: 12px !important; /* Ajusta o tamanho da fonte */
+    }
+
+    .celula {
+        font-size: 12px !important; /* Ajusta o tamanho da fonte nas células */
+    }
+
+    .imgCenter-fluid{
         display: flex !important;
-        flex-direction: column !important;
-        max-width: 75px;
-        max-height: 75px;
-        width: 100% !important;
-        height: 100% !important;
-        margin: 30% 60% 60% 30% !important;
-        font-size: 15px !important;
-        align-items: center !important;
+        justify-content: center !important;
+        width: 60vw;
+        height: 60vh;
+        background-color: black;
+        border-radius: 10px !important;
+        align-items: center;
+        margin-bottom: 50px !important;
+        margin-top: auto !important;
+        position: static !important;
     }
 
-    span{
-        text-align: center !important;
-        font-size: 9px !important;
+    .imagemElemento{
+        width: 60vw;
+        height: 60vh;
+        border-radius: 3% !important;
+        margin-top: 5%;
+        margin-bottom: auto !important;
+        position: static !important;
+    }
+
+    .row{
+        display: flex;
+        justify-content: row;
+        max-height: 90% !important;
+        margin: 3% !important;
     }
 }
 
-@media screen and (max-width: 380px) {
-    .imgCenter-fluid{
-        width: 87vw !important;
-        height: 87vh !important;
+@media screen and (max-width: 690px) {
+    .tabelaperiodicaLinhas{
+        justify-content: center !important;
+        align-items: center !important;    
+        margin: 900px 15px 3% 15px !important;
     }
+}
+
+@media screen and (max-width: 490px) {
+    .tabelaperiodicaLinhas{
+        justify-content: center !important;
+        align-items: center !important;    
+        margin: 1200px 15px 3% 15px !important;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .imgCenter-fluid > img{
+        display: flex !important;
+        justify-content: center !important;
+        position: static !important;
+    }
+
     .imagemElemento{
-        width: 87vw !important;
-        height: 87vh !important;
+        position: static !important;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row !important;
+        max-height: 90% !important;
+        margin: 3% !important;
+    }
+
+    .tabelaperiodicaLinhas{
+        justify-content: center !important;
+        align-items: center !important;    
+        margin: 1500px 15px 3% 15px !important;
     }
 }
 
@@ -129,7 +219,6 @@ main{
     margin-top: 5%;
     margin-top: auto !important;
     margin-bottom: auto !important;
-    position: fixed !important
 }
 
 .col-4{
@@ -150,16 +239,19 @@ main{
 }
 
 .celula{
-    padding: 10px !important;
+    padding: 15px !important;
+    font-size: 14px !important;
 }
 
 .row{
-    justify-content: space-between;
     display: flex;
     justify-content: space-between;
-    display: flex;
     max-height: 90% !important;
     margin: 3% !important;
+}
+
+.texto {
+    font-size: 16px !important;
 }
 
 .numAtIn{
@@ -210,6 +302,7 @@ main{
     background-color: rgba(0, 0, 0, 0.750) !important;
     padding: 1% !important;
     border-radius: 0px 0px 10px 10px !important;
+    width: 140% !important;
 }
 
 .titulo{
@@ -232,7 +325,50 @@ main{
     margin-bottom: 50px !important;
     margin-top: auto !important;
     margin-bottom: auto !important;
-    position: fixed !important
+}
+
+@media screen and (max-width: 900px){
+/* Tela Mobile */
+    .imgCenter-fluid{
+        margin: 5px 50px !important;
+    }
+
+    .telaDesk{
+        display: none !important;
+    }
+
+    .imgCenter .imagemElemento{
+        width: 250px !important;
+        height: 250px !important;
+        margin: 0px 20% !important;
+    }
+    .celula{
+        margin: 0px 30% !important;
+    }
+    .ondeEncontrar{
+        width: 77vh !important;
+        text-align: justify !important;
+    }
+    .aplicacao{
+        width: 77vh !important;
+        text-align: justify !important;
+    }
+    .explicacoes{
+        width: 77vh !important;
+        text-align: justify !important;
+    }
+    .row {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+/* Tela Desktop */
+    .telaMob{
+        display: none !important;
+    }
 }
 
 .tabelaperiodica{
@@ -247,6 +383,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 100px !important;
 }
 
 .tabelaperiodicaLinhas{
@@ -254,8 +391,6 @@ main{
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    margin-top: 50px !important;
-    margin-right: 15px !important;
 }
 
 footer {
@@ -283,6 +418,7 @@ footer {
     margin-bottom: 50px !important;
 }
 
-.aplicacao{
+.aplicacao, .explicacoes, .ondeEncontrar{
     text-align: justify !important;
 }
+

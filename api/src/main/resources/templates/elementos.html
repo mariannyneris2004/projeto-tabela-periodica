@@ -8,20 +8,23 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+    </style>
     <link rel="icon" type="imagem/png" href="./img/favicon.ico" />
-    <title>Tabela Periódica</title>
+    <title>Periodic Five | Home</title>
 </head>
 <body class="vh-100">
 
 <div class="tituloteste">
-    <h1 class="tituloTabela">Tabela Periódica</h1>
+    <h1 class="tituloTabela">Periodic Five</h1>
 </div>
 
 <main id="center">
     <div class="container-fluid">
         <div class="TabelaPeriodica">
             <div class="tabelaperiodica">
-                <div class="familia">
+                <div class="familia1">
                     <div class="elemento"
                          id="elemento"
                          th:each="elemento : ${elementos}"
@@ -32,7 +35,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia2">
                     <div class="elemento dois" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 2}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -40,7 +43,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia3">
                     <div class="elemento tres" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 3 && elemento.numeroAtomico < 40}"
                      th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -54,7 +57,7 @@
                         <p>89-103</p>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia4">
                     <div class="elemento quatro" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 4}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -62,7 +65,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia5">
                     <div class="elemento cinco" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 5}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -70,7 +73,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia6">
                     <div class="elemento seis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 6}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -78,7 +81,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia7">
                     <div class="elemento sete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 7}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -86,7 +89,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia8">
                     <div class="elemento oito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 8}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -94,7 +97,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia9">
                     <div class="elemento nove" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 9}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -102,7 +105,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia10">
                     <div class="elemento dez" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 10}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -110,7 +113,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia11">
                     <div class="elemento onze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 11}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -118,7 +121,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia12">
                     <div class="elemento doze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 12}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -126,7 +129,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia13">
                     <div class="elemento treze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 13}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -134,7 +137,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia14">
                     <div class="elemento quatorze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 14}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -142,7 +145,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia15">
                     <div class="elemento quinze" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 15}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -150,7 +153,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia16">
                     <div class="elemento dezesseis" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 16}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -158,7 +161,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia17">
                     <div class="elemento dezessete" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 17}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
@@ -166,7 +169,7 @@
                         <span th:text="${elemento.nome}"></span>
                     </div>
                 </div>
-                <div class="familia">
+                <div class="familia18">
                     <div class="elemento dezoito" id = "elemento" th:each="elemento : ${elementos}" th:if="${elemento.familia == 18}"
                          th:onclick="'redirectToElemento(\'' + ${elemento.numeroAtomico} + '\')'">
                         <span th:text="${elemento.numeroAtomico}"></span>
