@@ -1,3 +1,7 @@
+CREATE VIEW qtd_elementos AS
+SELECT 'Elementos' AS Elementos, count(*) AS qtd FROM elementos;
+
+
 CREATE VIEW view_familia_1 AS
 SELECT numero_atomico, nome, sigla
 FROM elementos where familia = 1;
@@ -70,6 +74,7 @@ CREATE VIEW view_familia_18 AS
 SELECT numero_atomico, nome, sigla
 FROM elementos where familia = 18;
 
+SELECT * FROM qtd_elementos;
 SELECT * FROM view_familia_1;
 SELECT * FROM view_familia_2;
 SELECT * FROM view_familia_3;
