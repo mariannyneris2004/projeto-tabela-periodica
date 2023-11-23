@@ -1,1 +1,44 @@
-/.idea
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.sln.docstates
+
+# Arquivos gerados por Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos gerados por Visual Studio Code
+.vscode/
+.history/
+
+# Arquivos gerados por Eclipse
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.metadata/
+
+# Arquivos gerados por NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Arquivos gerados por IntelliJ
+out/
+.idea/
+*.iml
+*.iws
